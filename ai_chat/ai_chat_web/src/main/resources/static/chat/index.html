@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AI 助手 · 流式对话</title>
+    <!--
+      index.html — 聊天应用入口页
+      作用：加载全局样式、React 运行时，并挂载 main.js。
+
+      目录说明（均在 src/main/resources/static/chat/）：
+      ├── index.html              入口 HTML
+      ├── css/chat.css            GPT 风格样式
+      └── js/
+          ├── main.js             React 挂载入口
+          ├── api/chatApi.js      对接 /chat-ui/stream、/chat、/raw
+          ├── hooks/useChat.js    消息状态与流式发送逻辑
+          └── components/
+              ├── ChatApp.js      根组件
+              ├── ChatHeader.js   顶栏（流式/RAG 开关）
+              ├── MessageList.js  消息列表
+              ├── MessageBubble.js单条气泡
+              └── ChatInput.js    输入框
+
+      访问：http://localhost:8085/chat-ui  或  /chat/index.html
+      后端：ChatStreamUiController（流式 POST），ChatAiController 未改动
+    -->
+    <link rel="stylesheet" href="./css/chat.css"/>
+</head>
+<body>
+<div id="root"></div>
+<!--
+  使用 esm.sh 加载 React 18（无需本地 npm 构建）。
+  main.jsx 为应用启动入口。
+-->
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>

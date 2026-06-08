@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for user_manager" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../programinstall/apache-maven-3.6.3/mavenrepository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+          <entry name="$PROJECT_DIR$/../../../programinstall/apache-maven-3.6.3/mavenrepository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="platform_dict_adapter" />
+        <module name="user_manager_model" />
+        <module name="platform_dict_service" />
+        <module name="platform_dict_mapper" />
+        <module name="platform_dict_model" />
+        <module name="user_manager_mapper" />
+        <module name="platform_dict_service_impl" />
+      </profile>
+      <profile name="Annotation profile for ai_chat" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../programinstall/apache-maven-3.6.3/mavenrepository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="user_manager_service_impl" />
+        <module name="user_manager_adapter" />
+        <module name="user_manager_web" />
+        <module name="redis_plugs_service" />
+        <module name="platform_common" />
+        <module name="ai_chat_service_impl" />
+        <module name="ai_chat_service" />
+        <module name="ai_chat_web" />
+        <module name="redis_plugs_web" />
+        <module name="user_manager_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="user_manager_common" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="redis_plugs" options="" />
+      <module name="redis_plugs_service" options="" />
+      <module name="redis_plugs_web" options="" />
+      <module name="user_manager" options="" />
+      <module name="user_manager_adapter" options="" />
+      <module name="user_manager_common" options="" />
+      <module name="user_manager_mapper" options="" />
+      <module name="user_manager_model" options="" />
+      <module name="user_manager_service" options="" />
+      <module name="user_manager_service_impl" options="" />
+      <module name="user_manager_web" options="" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.haibu.ai</groupId>
+        <artifactId>user_manager</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>baojia_platform</artifactId>
+    <packaging>pom</packaging>
+    <name>baojia_platform</name>
+    <description>公共基础与平台业务能力（字典等）</description>
+    <modules>
+        <module>platform_dict_model</module>
+        <module>platform_dict_mapper</module>
+        <module>platform_dict_adapter</module>
+        <module>platform_dict_service</module>
+        <module>platform_dict_service_impl</module>
+    </modules>
+</project>

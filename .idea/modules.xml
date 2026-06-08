@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/baojia_project.iml" filepath="$PROJECT_DIR$/baojia_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_manager/user_manager_mapper/user_manager_mapper.iml" filepath="$PROJECT_DIR$/user_manager/user_manager_mapper/user_manager_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_manager/user_manager_service_impl/user_manager_service_impl.iml" filepath="$PROJECT_DIR$/user_manager/user_manager_service_impl/user_manager_service_impl.iml" />
+    </modules>
+  </component>
+</project>
