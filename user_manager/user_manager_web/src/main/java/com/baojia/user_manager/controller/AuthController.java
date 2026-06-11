@@ -1,6 +1,8 @@
 package com.baojia.user_manager.controller;
 
 import com.baojia.platform.common.ResultModuleVo;
+import com.baojia.platform.common.vos.CurrentUserVo;
+import com.baojia.platform.common.vos.LoginResponseVo;
 import com.baojia.user_manager.config.JwtProperties;
 import com.baojia.user_manager.model.SysRole;
 import com.baojia.user_manager.model.SysUser;
@@ -10,12 +12,9 @@ import com.baojia.user_manager.security.token.TokenMonitorService;
 import com.baojia.user_manager.service.ISysRoleService;
 import com.baojia.user_manager.service.ISysUserService;
 import com.baojia.user_manager_adapter.dto.LoginRequestDto;
-import com.baojia.user_manager_adapter.vo.CurrentUserVo;
-import com.baojia.user_manager_adapter.vo.LoginResponseVo;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;

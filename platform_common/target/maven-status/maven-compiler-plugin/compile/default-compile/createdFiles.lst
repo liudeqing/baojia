@@ -1,3 +1,6 @@
 com/baojia/platform/common/enums/ResultTypeEnums.class
-com/baojia/platform/common/ResultModuleVo.class
+com/baojia/platform/common/vos/LoginResponseVo.class
 com/baojia/platform/common/PageResultVo.class
+com/baojia/platform/common/ResultModuleVo.class
+com/baojia/platform/common/dtos/AppUserLoginRequestDto.class
+com/baojia/platform/common/vos/LoginResponseVo$LoginResponseVoBuilder.class

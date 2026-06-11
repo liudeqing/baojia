@@ -1,4 +1,4 @@
-package com.baojia.user_manager_adapter.vo;
+package com.baojia.platform.common.vos;
 
 import lombok.Builder;
 import lombok.Data;
