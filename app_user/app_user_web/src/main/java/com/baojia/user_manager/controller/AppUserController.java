@@ -78,6 +78,10 @@ public class AppUserController {
                     .email( appUser.getEmail() )
                     .avatar( appUser.getAvatar() )
                     .nickname( appUser.getNickname() )
+                    .email( appUser.getEmail() )
+                    .birthday( appUser.getBirthday() )
+                    .gender( appUser.getGender() )
+                    .realName( appUser.getRealName() )
                     .build()
             );
         } catch (RuntimeException e) {
@@ -97,7 +101,6 @@ public class AppUserController {
             if( appUser == null ) {
                 return ResultModuleVo.failure( 300, "用户不存在" );
             }
-
             appUser.setRealName( updateAppUserDetail.getRealName() );
             appUser.setUpdateBy( appUser.getUserId() );
             appUser.setUpdateTime(LocalDateTime.now() );
